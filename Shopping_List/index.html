@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container" id="app-container">
+        <button id="dark-mode">dark</button>
+        <h1>Shopping List</h1>
+       
+        <form id="itemForm">
+            <input type="text" id="itemInput" placeholder="Add a new item...">
+            <button type="submit">Add Item</button>
+        </form>
+        <div class="filter">
+            <input
+              type="text"
+              class="form-input-filter"
+              id="filter"
+              placeholder="Filter Items"
+            />
+          </div>
+        <ul id="itemsList">
+            <li> Orange<button class="remove-item">delete</button></li>
+            <li> Egg<button class="remove-item">delete</button></li>
+            <li> Apple<button class="remove-item">delete</button></li>
+            <li>Eggnog<button class="remove-item">delete</button></li>
+        </ul>
+        <button id="clear">Clear</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

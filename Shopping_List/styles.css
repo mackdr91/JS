@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.app-container {
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.edit-mode{
+    color: #ccc
+}
+
+#itemForm {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#itemInput {
+    flex: 1;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background: #5cb85c;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #449d44;
+}
+
+#clear{
+    background-color: red;
+    border: red 1px solid;
+    width: 100%;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: block;
+  
+}
+
+ul li {
+    display: flex;
+    background: rgb(231, 231, 231);
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin: 0 5px 20px;
+}
+
+
+.form-input-filter {
+    margin-top: 20px;
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    outline: none;
+  }
+
+  @media (max-width: 500px) {
+    .items li {
+      width: 100%;
+    }
+  }
+
+
+.dark {
+    background-color: black !important; /* Dark theme background */
+}
+
+.dark h1 {
+    color: white !important; /* Dark theme text color */
+}
+
+.dark li {
+    background-color: grey !important; /* Dark theme list item background */
+}
+  
